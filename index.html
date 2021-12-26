@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="Style/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="Style/all.min.css" />
+    <!-- Google Font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+
+    <!-- Normal Style -->
+    <link rel="stylesheet" href="style/style.css" />
+
+    <title>The Band</title>
+  </head>
+
+  <body>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                Start Nav                                -->
+    <!-- ----------------------------------------------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#band">BAND</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tour">TOWER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                MORE
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Merchandise</a></li>
+                <li><a class="dropdown-item" href="#">Extras</a></li>
+                <li><a class="dropdown-item" href="#">Media</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="px-sm-5 style">
+            <i class="fas fa-search fa-1x text-white"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 End Nav                                 -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                              Start Header                               -->
+    <!-- ----------------------------------------------------------------------- -->
+    <header id="landing" class="mb-5 mb-md-5">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active d-none"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            class="d-none"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            class="d-none"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="Images/la.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block">
+              <h5>Los Angeles</h5>
+              <p class="fw-bolder">
+                We had the best time playing at Venice Beach!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="Images/ny.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block">
+              <h5>New York</h5>
+              <p class="fw-bolder">
+                The atmosphere in New York is lorem ipsum.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="Images/chicago.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block">
+              <h5>Chicago</h5>
+              <p class="fw-bolder">
+                Thank you, Chicago - A night we won't forget.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev d-none"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next d-none"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               End Header                                -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               Start Band                                -->
+    <!-- ----------------------------------------------------------------------- -->
+    <section id="band" class="py-5 mb-5">
+      <div class="container">
+        <div class="text-center mb-3">
+          <h2 class="title-heading">The Band</h2>
+          <p class="title-sub-heading text-muted">We love music</p>
+        </div>
+        <p class="w-75 m-auto lh-sm p-2">
+          We have created a fictional band website. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+        <div class="row p-5 text-center m-auto">
+          <div class="col-md-4 text-center">
+            <div class="w-75 m-auto text-center">
+              <p class="">Name</p>
+              <img src="Images/bandmember.jpg" class="w-100 rounded-3" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="w-75 m-auto text-center">
+              <p class="">Name</p>
+              <img src="Images/bandmember.jpg" class="w-100 rounded-3" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="w-75 m-auto text-center">
+              <p class="">Name</p>
+              <img src="Images/bandmember.jpg" class="w-100 rounded-3" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                End Band                                 -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               Start Tour                                -->
+    <!-- ----------------------------------------------------------------------- -->
+    <section id="tour" class="bg-black mb-5 py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="title-heading text-white">TOUR DATES</h2>
+          <p class="title-sub-heading text-muted">
+            Remember to book your tickets!
+          </p>
+        </div>
+        <div class="w-100 m-auto bg-white">
+          <ul>
+            <li class="text-muted p-2 border-bottom">
+              September
+              <span class="bg-danger text-white px-2 lh-sm"> Sold Out</span>
+            </li>
+            <li class="text-muted p-2 border-bottom">
+              October
+              <span class="bg-danger text-white px-2 lh-sm"> Sold Out</span>
+            </li>
+            <li
+              class="
+                text-muted
+                p-2
+                border-bottom
+                d-flex
+                justify-content-between
+              "
+            >
+              November
+              <span class="bg-black rounded-circle text-white px-2"> 3</span>
+            </li>
+          </ul>
+        </div>
+        <div class="w-100 mb-5 m-auto">
+          <div class="row justify-content-between">
+            <div class="col-md-4 text-center mb-3">
+              <div class="bg-white">
+                <div class="onHover mb-2">
+                  <img
+                    src="Images/newyork.jpg"
+                    class="img-fluid w-100"
+                    alt=""
+                  />
+                </div>
+                <p class="text-start px-3 fw-bolder text-black">NewYork</p>
+                <p class="text-start px-3 fw-light text-muted">
+                  Fri 27 Nov 2016
+                </p>
+                <p class="px-3 text-start mb-4">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <div class="text-start px-3 pb-4">
+                  <a href="" class="text-white buy-ticket py-2"> Buy Ticket</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="bg-white">
+                <div class="onHover mb-2">
+                  <img src="Images/paris.jpg" class="img-fluid w-100" alt="" />
+                </div>
+                <p class="text-start px-3 fw-bolder text-black">Paris</p>
+                <p class="text-start px-3 fw-light text-muted">
+                  Sat 28 Nov 2016
+                </p>
+                <p class="px-3 text-start mb-4">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <div class="text-start px-3 pb-4">
+                  <a href="" class="text-white buy-ticket py-2"> Buy Ticket</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="bg-white">
+                <div class="onHover mb-2">
+                  <img
+                    src="Images/sanfran.jpg"
+                    class="img-fluid w-100"
+                    alt=""
+                  />
+                </div>
+                <p class="text-start px-3 fw-bolder text-black">
+                  San Francisco
+                </p>
+                <p class="text-start px-3 fw-light text-muted">
+                  Sun 29 Nov 2016
+                </p>
+                <p class="px-3 text-start mb-4">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <div class="text-start px-3 pb-4">
+                  <a href="" class="text-white buy-ticket py-2"> Buy Ticket</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                End Tour                                 -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                              Start Contact                              -->
+    <!-- ----------------------------------------------------------------------- -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="title-heading text-black">CONTACT</h2>
+          <p class="title-sub-heading text-muted">Fan? Drop a note!</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <ul>
+              <li class="fs-5">
+                <i class="fas fa-map-marker-alt me-3"></i> Chicago, US
+              </li>
+              <li class="fs-5">
+                <i class="fas fa-phone-alt me-3"></i> Phone: +00 151515
+              </li>
+              <li class="fs-5">
+                <i class="fas fa-envelope me-3"></i> Email: mail@mail.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6 mb-1">
+                <form action="">
+                  <input
+                    type="text"
+                    class="w-100 border p-2"
+                    placeholder="Name"
+                  />
+                </form>
+              </div>
+              <div class="col-md-6 mb-1">
+                <form action="">
+                  <input
+                    type="email"
+                    class="w-100 border p-2"
+                    placeholder="Email"
+                  />
+                </form>
+              </div>
+              <form action="" class="mb-3">
+                <input
+                  type="text"
+                  class="w-100 border p-2"
+                  placeholder="Message"
+                />
+              </form>
+              <div class="text-end">
+                <a
+                  href=""
+                  class="
+                    me-auto
+                    py-2
+                    px-3
+                    on-hover
+                    bg-dark
+                    text-decoration-none text-white
+                  "
+                  >Send</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5" id="map">
+      <img src="Images/map.jpg" class="w-100" alt="" />
+    </section>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               End Contact                               -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                              Start Footer                               -->
+    <!-- ----------------------------------------------------------------------- -->
+    <footer class="py-3 text-center">
+      <div class="container py-5">
+        <a href="" class="text-dark">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="" class="text-dark">
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href="" class="text-dark">
+          <i class="fab fa-snapchat-ghost fa-2x"></i>
+        </a>
+        <a href="" class="text-dark">
+          <i class="fab fa-pinterest fa-2x"></i>
+        </a>
+        <a href="" class="text-dark">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="" class="text-dark">
+          <i class="fab fa-linkedin-in fa-2x"></i>
+        </a>
+        <p class="fs-6 text-muted mt-4">
+          Powered by <br />
+          <span class="text-decoration-underline">Kyrillos Kamal</span>
+        </p>
+      </div>
+    </footer>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               End Footer                                -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <!-- JS -->
+    <script src="Javascript/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

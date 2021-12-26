@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.title-heading {
+  letter-spacing: 4px !important;
+}
+.title-sub-heading {
+  font-style: italic;
+}
+ul,li {
+  list-style: none;
+  padding-left: 0;
+}
+/* -------------------------------------------------------------------------- */
+/*                               Start Nav                               */
+/* -------------------------------------------------------------------------- */
+nav a:hover {
+  background-color: white;
+  color: black !important;
+}
+
+nav .style i {
+  padding: 10px !important;
+  width: 50px !important;
+  text-align: center !important;
+}
+nav i:hover {
+  background-color: tomato;
+  color: white !important;
+}
+/* -------------------------------------------------------------------------- */
+/*                                End Nav                                */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                 Start Tour                                 */
+/* -------------------------------------------------------------------------- */
+#tour .onHover:hover img {
+  filter: brightness(0.6);
+  transition: 0.25s ease-in-out;
+}
+#tour .buy-ticket {
+  background-color: black;
+  padding: 1rem;
+  text-decoration: none;
+}
+#tour .buy-ticket:hover {
+  color: black !important;
+  background-color: #ccc !important;
+  transition: 0.2s ease;
+}
+/* -------------------------------------------------------------------------- */
+/*                                  End Tour                                  */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                Start Contact                               */
+/* -------------------------------------------------------------------------- */
+#contact .on-hover:hover {
+  background-color: #ccc !important;
+  color: black !important;
+}
+#map img {
+  filter: grayscale(50%);
+}
+/* -------------------------------------------------------------------------- */
+/*                                 End Contact                                */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                Start Footer                                */
+/* -------------------------------------------------------------------------- */
+footer a {
+  text-decoration: none;
+  margin: 0.3rem;
+}
+footer a:hover {
+  opacity: 0.4;
+}
+/* -------------------------------------------------------------------------- */
+/*                                 End Footer                                 */
+/* -------------------------------------------------------------------------- */
